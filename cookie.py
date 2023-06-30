@@ -259,6 +259,7 @@ def git_pull():
     try:
         subprocess.check_call(['git', 'pull'])
         print("Les modifications ont été récupérées et fusionnées avec succès.")
+	time.sleep(2)
         secure()
     except subprocess.CalledProcessError as e:
         print("Une erreur s'est produite lors de l'exécution de 'git pull':", e)
