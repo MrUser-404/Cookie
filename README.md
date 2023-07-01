@@ -13,5 +13,5 @@ python cookie.py
 Tool password: MrUser404
 N.B: If you don't have an internet connection, disable and enable your mobile data for the script to work
 
-Thanks for using my tool😊
+Thanks for using my tool
 
